@@ -50,3 +50,14 @@
 - Frontend responsive (desktop / mobile)
 - Scalabilité: facile ajout nouvelles plateformes / widgets
 - Gestion des erreurs et messages clairs
+
+
+
+# Non-functional Requirements: Page Login & Page d'accueil
+
+- Performance: temps de chargement page accueil < 2s
+- Sécurité: OAuth2 sécurisé (state, redirect URI, token exchange)
+- Login/password admin stocké en hash sécurisé (bcrypt)
+- Frontend responsive (desktop / mobile)
+- Scalabilité: facile ajout nouvelles plateformes / widgets
+- Gestion des erreurs et messages clairs
