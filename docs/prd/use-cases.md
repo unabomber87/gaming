@@ -12,3 +12,41 @@ Fonctionnalités:
 4. Accès rapide aux docs PRD et ADR
 5. Notifications et mises à jour du backlog
 6. Boutons d'accès aux plateformes connectées (Steam, Epic, PSN, Xbox)
+
+
+
+# Use Case: Page Login Multi-plateformes et Admin
+
+Objectif:
+- Permettre aux joueurs de se connecter via Steam, Epic Games, PSN, Xbox
+- Permettre aux administrateurs de se connecter via login/password interne
+
+Fonctionnalités:
+1. Login via Steam / Epic / PSN / Xbox
+2. Login via formulaire admin interne
+3. Redirection selon type d'utilisateur:
+   - Joueur → Page d'accueil
+   - Admin → Dashboard admin
+4. Gestion sécurisée des sessions
+5. Gestion des erreurs et messages clairs
+
+
+
+# Use Case: Login Multi-plateformes et Dashboard Admin
+
+Objectif:
+- Permettre aux joueurs de se connecter via Steam, Epic, PSN, Xbox
+- Permettre aux administrateurs de se connecter via login/password interne
+- Rediriger les joueurs vers la page d'accueil
+- Rediriger les admins vers le dashboard admin
+
+Flux complet:
+1. L’utilisateur arrive sur la page login
+2. Choisit la méthode:
+   - Plateformes gaming (OAuth2) → récupération infos publiques
+   - Admin (login/password) → vérification interne
+3. Redirection selon rôle:
+   - Joueur → Page d'accueil
+   - Admin → Dashboard admin
+4. Gestion sécurisée des sessions et tokens
+5. Gestion des erreurs et messages clairs

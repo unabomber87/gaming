@@ -1,2 +1,2 @@
-# HomeController - backend
+# AuthController - backend
 Placeholder pour endpoints et documentation.
