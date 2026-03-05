@@ -39,3 +39,14 @@
 - Gestion sécurisée des sessions (JWT / backend)
 - Gestion des erreurs (mauvais login, token expiré)
 - Préparer l'ajout de nouvelles plateformes à l'avenir
+
+
+
+# Non-functional Requirements: Page Login & Page d'accueil
+
+- Performance: temps de chargement < 2s pour page d'accueil
+- Sécurité: OAuth2 sécurisé (state, redirect URI, token exchange)
+- Login/password admin stocké en hash sécurisé (bcrypt)
+- Frontend responsive (desktop / mobile)
+- Scalabilité: facile ajout nouvelles plateformes / widgets
+- Gestion des erreurs et messages clairs
