@@ -1,0 +1,17 @@
+# Auto-généré : charte graphique LooterStrike
+
+NAME = 'LooterStrike'
+SLOGAN = 'Strike Fast. Loot Hard.'
+
+PALETTE = {
+    'primary': '#1A1A1D',
+    'secondary': '#E63946',
+    'accent1': '#F77F00',
+    'accent2': '#457B9D',
+    'info': '#00B4D8',
+    'success': '#2A9D8F',
+    'warning': '#F4A261',
+    'text': '#F1FAEE',
+    'background_panels': '#2B2B2E',
+    'border': '#555555',
+}
