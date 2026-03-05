@@ -1,39 +1,10 @@
-# home - frontend
-Placeholder pour structure et composants.
-# home - Placeholder
-Structure et rôle du dossier.
 
-## Schéma workflow
+# Home Page
 
-# Workflow Complet: Login → Page d'accueil / Dashboard Admin
+## Rôle
+Affiche le profil utilisateur, stats et informations de jeu récupérées depuis les API gaming.
 
-Flux Utilisateur:
-1. L'utilisateur arrive sur la page login
-2. Choisit la méthode de connexion:
-   - Steam / Epic / PSN / Xbox (OAuth2)
-   - Admin login/password interne
-3. Authentification:
-   - Joueur: récupération infos publiques via API
-   - Admin: vérification interne login/password
-4. Redirection:
-   - Joueur → Page d'accueil (profil, stats, recommandations)
-   - Admin → Dashboard admin
-5. Gestion de session sécurisée (JWT ou session backend)
-6. Gestion des erreurs (mauvais login, token expiré)
-
-Schéma textuel ASCII simplifié:
-
-      +----------------+
-      | Page Login     |
-      +----------------+
-             |
-   +---------+---------+
-   |                   |
-   v                   v
- Joueur               Admin
-   |                   |
-   v                   v
-Page Accueil       Dashboard Admin
-   |
-   v
-Résumé infos & recommandations
+## Contenu
+- Profil joueur (nom, avatar, niveau)
+- Statistiques (loot, scores, achievements)
+- Liens vers autres sections / dashboard

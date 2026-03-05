@@ -1,4 +1,11 @@
-# AuthController - backend
-Placeholder pour endpoints et documentation.
-# AuthController - Placeholder
-Structure et rôle du dossier.
+
+# AuthController
+
+## Endpoints
+- /login (OAuth pour plateformes)
+- /login/admin (login interne admin)
+
+## Gestion
+- Authentification OAuth standard
+- Vérification des rôles (player / admin)
+- Redirections selon rôle
